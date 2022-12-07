@@ -7,13 +7,13 @@ namespace RegexTestProject
     {   ///Arrange           
         [TestMethod]
         [DataRow("Ravi@123#%")]//test input 01
-        [DataRow("Raj")]//test input 02
+        [DataRow("Ken")]//test input 02
         [DataRow("raJ")]//test input 03   
-        public void TestMethod1(string inputFirstName)
+        public void TestMethod1(string inputLastName)
         {
             //if min 3 characters  test will pass
             ///Act
-            bool result = RegexValidateCheck.RegexValidate(inputFirstName);
+            bool result = RegexValidateCheck.RegexValidate(inputLastName);
             ///Assert
             Assert.AreEqual(true, result);
         }
