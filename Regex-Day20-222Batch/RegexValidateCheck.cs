@@ -9,10 +9,10 @@ namespace Regex_Day20_222Batch
 {
     public class RegexValidateCheck
     {
-        public static string LastNameRegex = "^[A-Z]{1}[a-z]{2,}$";
-        public static bool RegexValidate(string inputLastName)
+        public static string emailregex = "^[0-9a-z]{1,}([.+-_]*)(([0-9a-z]{1,})*)(@)(gmail|bl)(.)(com|co)([.]*)([in]*)$";
+        public static bool RegexValidate(string inputemail)
         {
-            return Regex.IsMatch(inputLastName, LastNameRegex);
+            return Regex.IsMatch(inputemail, emailregex);
         }
     }
 }

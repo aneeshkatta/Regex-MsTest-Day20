@@ -11,8 +11,8 @@ namespace Regex_Day20_Mstest
     {
         static void Main(string[] args)
         {
-            string inputLastName = "Raj";
-            bool result = RegexValidateCheck.RegexValidate(inputLastName);
+            string inputemail = "abc.xyz@bl.co.in";
+            bool result = RegexValidateCheck.RegexValidate(inputemail);
             Console.WriteLine("\n{0}", result);
             Console.ReadKey();
         }
