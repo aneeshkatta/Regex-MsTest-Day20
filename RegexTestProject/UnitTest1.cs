@@ -6,13 +6,13 @@ namespace RegexTestProject
     public class UnitTest1
     {   ///Arrange           
         [TestMethod]
-        [DataRow("abc.xyz@bl.co.in")]//test input 
-        [DataRow("abc@bl.co")]//test input 
-        public void TestMethod1(string inputemail)
+        [DataRow("91 9876543210")]//test input 01
+        [DataRow("91-9876543210")]//test input 02 
+        public void TestMethod1(string inputMobile)
         {
             //if min 3 characters  test will pass
             ///Act
-            bool result = RegexValidateCheck.RegexValidate(inputemail);
+            bool result = RegexValidateCheck.RegexValidate(inputMobile);
             ///Assert
             Assert.AreEqual(true, result);
         }

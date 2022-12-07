@@ -9,10 +9,10 @@ namespace Regex_Day20_222Batch
 {
     public class RegexValidateCheck
     {
-        public static string emailregex = "^[0-9a-z]{1,}([.+-_]*)(([0-9a-z]{1,})*)(@)(gmail|bl)(.)(com|co)([.]*)([in]*)$";
-        public static bool RegexValidate(string inputemail)
+        public static string mobileNoRegex = "^[0-9]{1}[0-9]{1}[ -][0-9]{10,}";
+        public static bool RegexValidate(string inputMobile)
         {
-            return Regex.IsMatch(inputemail, emailregex);
+            return Regex.IsMatch(inputMobile, mobileNoRegex);
         }
     }
 }

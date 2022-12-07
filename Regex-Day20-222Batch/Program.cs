@@ -11,8 +11,8 @@ namespace Regex_Day20_Mstest
     {
         static void Main(string[] args)
         {
-            string inputemail = "abc.xyz@bl.co.in";
-            bool result = RegexValidateCheck.RegexValidate(inputemail);
+            string inputMobile = "91-9876543210";
+            bool result = RegexValidateCheck.RegexValidate(inputMobile);
             Console.WriteLine("\n{0}", result);
             Console.ReadKey();
         }
