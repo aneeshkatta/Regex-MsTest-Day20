@@ -10,7 +10,6 @@ namespace RegexTestProject
         [DataRow("abc@bl.co")]//test input 
         public void TestMethod1(string inputemail)
         {
-            //if min 3 characters  test will pass
             ///Act
             bool result = RegexValidateCheck.RegexValidate(inputemail);
             ///Assert
