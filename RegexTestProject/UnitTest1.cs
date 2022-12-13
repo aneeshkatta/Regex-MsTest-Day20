@@ -6,8 +6,8 @@ namespace RegexTestProject
     public class UnitTest1
     {   ///Arrange           
         [TestMethod]
-        [DataRow("PassWorD123")]//test input 01
-        [DataRow("Password123")]//test input 02
+        [DataRow("PassWorD@123")]//test input 01
+        [DataRow("Password#123")]//test input 02
         public void TestMethod1(string Password)
         {
             ///Act
