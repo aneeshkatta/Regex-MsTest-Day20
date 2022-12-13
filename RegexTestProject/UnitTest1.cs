@@ -10,7 +10,7 @@ namespace RegexTestProject
         [DataRow("91-9876543210")]//test input 02 
         public void TestMethod1(string inputMobile)
         {
-            //if min 3 characters  test will pass
+           
             ///Act
             bool result = RegexValidateCheck.RegexValidate(inputMobile);
             ///Assert
