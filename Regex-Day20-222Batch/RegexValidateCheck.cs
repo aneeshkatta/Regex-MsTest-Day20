@@ -9,7 +9,7 @@ namespace Regex_Day20_222Batch
 {
     public class RegexValidateCheck
     {
-        public static string mobileNoRegex = "^[0-9]{1}[0-9]{1}[ -][0-9]{10,}";
+        public static string mobileNoRegex = "^[0-9][0-9][ -][1-9][0-9]{9}";
         public static bool RegexValidate(string inputMobile)
         {
             return Regex.IsMatch(inputMobile, mobileNoRegex);
