@@ -6,7 +6,7 @@ namespace RegexTestProject
     public class UnitTest1
     {   ///Arrange           
         [TestMethod]
-        [DataRow("9876543210")]//test input 01
+        [DataRow("PassworD123")]//test input 01
         [DataRow("Password123")]//test input 02
         public void TestMethod1(string Password)
         {

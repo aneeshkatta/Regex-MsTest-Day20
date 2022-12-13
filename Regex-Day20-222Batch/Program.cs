@@ -11,7 +11,7 @@ namespace Regex_Day20_Mstest
     {
         static void Main(string[] args)
         {
-            string Password = "9876543210";
+            string Password = "PassworD123";
             bool result = RegexValidateCheck.RegexValidate(Password);
             Console.WriteLine("\n{0}", result);
             Console.ReadKey();
